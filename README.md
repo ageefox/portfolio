@@ -2,6 +2,8 @@
 
 Personal portfolio with case studies on EFFR forecasting, small-data text classification, and an open-source testing contribution.
 
+**Live site:** [portfolio-five-inky-26.vercel.app](https://portfolio-five-inky-26.vercel.app)
+
 ## Local setup
 
 Requires Node.js 22.
