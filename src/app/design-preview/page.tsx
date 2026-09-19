@@ -62,6 +62,12 @@ export default function DesignPreview() {
           </div>
       </dl>
 
+      <p className="preview-now">
+        <strong>Now:</strong> I&apos;m taking a statistics course, learning R, and
+        looking for entry-level data science, analytics, and software
+        engineering roles beginning in 2027.
+      </p>
+
       <section className="preview-work" aria-labelledby="selected-work">
         <header className="preview-section-title">
           <p>Selected work</p>
@@ -87,13 +93,23 @@ export default function DesignPreview() {
             </Link>
           </div>
           <figure className="preview-figure">
-            <Image
-              src="/images/effr-external-forecast.png"
-              alt="Actual effective federal funds rate alongside three one-month forecasts from 2017 through 2026"
-              width={1600}
-              height={1000}
-              priority
-            />
+            <span className="preview-effr-desktop">
+              <Image
+                src="/images/effr-external-forecast.png"
+                alt="Actual effective federal funds rate alongside three one-month forecasts from 2017 through 2026"
+                width={1600}
+                height={1000}
+                priority
+              />
+            </span>
+            <span className="preview-effr-mobile">
+              <Image
+                src="/images/effr-mobile-forecast.svg"
+                alt="Actual effective federal funds rate with Ridge and persistence forecasts from 2017 through 2026"
+                width={900}
+                height={920}
+              />
+            </span>
             <figcaption>
               External evaluation, March 2017–August 2026. Percentage points.
             </figcaption>

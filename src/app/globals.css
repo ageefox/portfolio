@@ -747,9 +747,21 @@ body:has(.design-preview) .site-footer {
 .preview-details {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: 0 0 clamp(3rem, 6vw, 5rem);
+  margin: 0;
   border-top: 1px solid var(--preview-ink);
   border-bottom: 1px solid var(--preview-ink);
+}
+
+.preview-now {
+  margin: 0 0 clamp(3rem, 6vw, 5rem);
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--preview-ink);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.preview-now strong {
+  color: var(--preview-accent);
 }
 
 .preview-contribution-facts div {
@@ -864,6 +876,15 @@ body:has(.design-preview) .site-footer {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.preview-effr-desktop,
+.preview-effr-mobile {
+  display: block;
+}
+
+.preview-effr-mobile {
+  display: none;
 }
 
 .preview-figure figcaption {
@@ -1082,6 +1103,14 @@ body:has(.design-preview) .site-footer {
 
   .preview-details div:nth-child(-n + 2) {
     border-bottom: 1px solid var(--preview-line);
+  }
+
+  .preview-effr-desktop {
+    display: none;
+  }
+
+  .preview-effr-mobile {
+    display: block;
   }
 }
 
