@@ -23,7 +23,7 @@ export default function AboutPage() {
             During a SQL data analyst internship at Oscillas Technologies, I built reporting and reconciliation workflows for sensor, equipment-downtime, and reliability data across PostgreSQL and SQL Server. The work required translating technical findings into decisions for engineering and business stakeholders.
           </p>
           <p>
-            My independent projects ask a related question: does an apparent result survive a more realistic test? That led me to chronological validation for EFFR forecasting, thread-held-out evaluation for TakeMeter, and a mutation check for the PathReview snapshot tests.
+            My independent projects ask a related question: does an apparent result survive a more realistic test? That led me to chronological validation for EFFR forecasting, thread-held-out evaluation for Craft Forum NLP, and a mutation check for the PathReview snapshot tests.
           </p>
         </section>
         <section>

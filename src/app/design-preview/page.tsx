@@ -144,14 +144,14 @@ export default function DesignPreview() {
             <div className="preview-project-copy">
               <p className="preview-meta">02 · NLP / evaluation</p>
               <h2>
-                <Link href="/work/takemeter">TakeMeter</Link>
+                <Link href="/work/craft-forum-nlp">Craft Forum NLP</Link>
               </h2>
               <p>
                 A four-class text benchmark split by whole forum conversations.
                 With 212 labeled posts, TF–IDF generalized better than either
                 DistilBERT setup.
               </p>
-              <Link className="preview-link" href="/work/takemeter">
+              <Link className="preview-link" href="/work/craft-forum-nlp">
                 See the benchmark <span aria-hidden="true">↗</span>
               </Link>
             </div>

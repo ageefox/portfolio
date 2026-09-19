@@ -66,17 +66,17 @@ export const projects: Project[] = [
     tools: ["Python", "pandas", "scikit-learn", "pytest", "GitHub Actions"],
   },
   {
-    slug: "takemeter",
+    slug: "craft-forum-nlp",
     number: "02",
-    title: "TakeMeter",
-    shortTitle: "TakeMeter",
+    title: "Craft Forum NLP",
+    shortTitle: "Craft Forum NLP",
     category: "NLP · Evaluation · Small data",
     summary:
       "A four-class text benchmark that keeps entire forum conversations out of training and asks whether larger language models actually generalize better.",
     result:
       "TF–IDF with logistic regression reached 0.310 macro F1 on unseen threads. Both DistilBERT variants remained close to the majority baseline.",
-    repository: "https://github.com/ageefox/takemeter",
-    image: "/images/takemeter-model-comparison.png",
+    repository: "https://github.com/ageefox/craft-forum-nlp",
+    image: "/images/craft-forum-model-comparison.png",
     imageAlt:
       "Horizontal bar chart showing TF-IDF with logistic regression leading the unseen-thread test set at 0.310 macro F1.",
     metrics: [
